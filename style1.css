@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
+
+.paper {
+  padding: 100px 100px;
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/09\ Decembr.jpg");
+  background-size: 1000px;
+  background-position: center center;
+}
+
+.paper {
+  position: absolute;
+  background-image: url("images/A.jpg");
+  background-size: 800px;
+  background-position: center center;
+  padding: 90px 160px;
+  transform: roatateZ(-50deg);
+  box-shadow: 1px 15px 20px 0px rgba(o, green, blue, alpha);
+}
+
+.paper.panda {
+  position: relative;
+  width: 20px;
+  height: 200px;
+}
+
+.paper.image {
+  padding: 30px 70px;
+}
+
+img {
+  max-height: 600px;
+  width: 200%;
+  user-select: none;
+}
+
+.paper.image p {
+  font-size: 50px;
+}
+
+div.paper {
+  text-align: center;
+}
+
+p {
+  font-family: "zeyada";
+  font-size: 50;
+  color: rgb(0, 0, 100);
+  opacity: 0.75;
+  user-select: none;
+}
